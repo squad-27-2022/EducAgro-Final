@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <title>Alfabetizacao</title>
+   <!-- Bootstrap CSS -->
+   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/css/bootstrap.min.css'>
+   <!-- Font Awesome CSS -->
+   <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.3.1/css/all.css'>
+   <!-- Bootstrap CSS v5.2.0-beta1 -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"  integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+   <link rel="stylesheet" href="css/educagro.css">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <!--NAVBAR-->
+  <div class="container-nav m-0">
+  <div class="row justify-content-center m-0">
+      <div class="logo col-md-6 text-center">
+      <img src="images/logo.png" width="100px" height="100 px">
+      </div>
+  </div>
+  <div class="row justify-content-center m-0">
+  <div class="col-md-2 d-flex">
+      <div class="social-media">
+      <p class="mt-5 d-flex text-center">
+        <button type="button" class="btn btn-round m-3" style="background-color: #4c6233; color:white" data-toggle="tooltip" data-placement="top" title="Twitter">
+          <i class="fab fa-twitter"></i>
+        </button>
+        <button type="button" class="btn btn-round m-3" style="background-color: #4c6233; color:white" data-toggle="tooltip" data-placement="top" title="Facebook">
+          <i class="fab fa-facebook"></i>
+        </button>
+        <button type="button" class="btn btn-round m-3" style="background-color: #4c6233; color:white" data-toggle="tooltip" data-placement="top" title="Instagram">
+          <i class="fab fa-instagram"></i>
+        </button>
+      </p>
+      </div>
+  </div>
+      <div class="col-md-8 d-flex justify-content-center">
+          <h2 class="educagro">EducAgro</h2>
+      </div>
+      <div class="col-md-2 d-flex">
+          <div class="container text-end p-5">
+              <a href="/login" class="btn btn-info btn-round">
+                Login
+              </a>  
+            </div>
+            
+          <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header border-bottom-0">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="form-title text-center">
+                      <h4>Login</h4>
+                    </div>
+                    <div class="d-flex flex-column text-center">
+                      <form>
+                        <div class="form-group">
+                          <input type="email" class="form-control" id="email1"placeholder="Seu email...">
+                        </div>
+                        <div class="form-group">
+                          <input type="password" class="form-control" id="password1" placeholder="Sua senha...">
+                        </div>
+                        <a type="button" class="btn btn-info btn-block btn-round" href="/dashboard">Login</a>
+                      </form>
+                      
+                      <div class="text-center delimiter">ou continue com o </div>
+                      <div class="d-flex justify-content-center social-buttons">
+                        <button type="button" class="btn btn-secondary btn-round" data-toggle="tooltip" data-placement="top" title="Twitter">
+                          <i class="fab fa-twitter"></i>
+                        </button>
+                        <button type="button" class="btn btn-secondary btn-round" data-toggle="tooltip" data-placement="top" title="Facebook">
+                          <i class="fab fa-facebook"></i>
+                        </button>
+                        <button type="button" class="btn btn-secondary btn-round" data-toggle="tooltip" data-placement="top" title="Linkedin">
+                          <i class="fab fa-linkedin"></i>
+                        </button>
+                      </di>
+                    </div>
+                  </div>
+                </div>
+                  <div class="modal-footer d-flex justify-content-center">
+                    <div class="signup-section">Não é um membro ainda? <a href="#a" class="text-info"> Crie sua conta</a>.</div>
+                  </div>
+              </div>
+            </div>
+          </div>
+      </div>
+  </div>
+  <div class="row m-0">
+      <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light " id="ftco-navbar" style="background-color: #4c6233;">
+          <div class="container-fluid">
+          
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="fa fa-bars"></span> Menu
+            </button>
+            <div class="collapse navbar-collapse" id="ftco-nav">
+              <ul class="navbar-nav m-auto">
+                  <li class="nav-item active fs-5 fw-bold"><a href="/home" class="nav-link">Home</a></li>
+                  <li class="nav-item dropdown">
+                       <a class="nav-link active dropdown-toggle fs-5 fw-bold" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dicas Pedagógicas</a>
+                      <div class="dropdown-menu" aria-labelledby="dropdown04">
+                          <a class="dropdown-item" href="/educagro-dicaspais">Dicas para os pais</a>
+                          <a class="dropdown-item" href="/educagro-dicasprof">Dicas para os professores</a>
+                      </div>
+                  </li>
+                      <li class="nav-item dropdown">
+                    <a class="nav-link active dropdown-toggle fs-5 fw-bold" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Cartilhas</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdown04">
+                      <a class="dropdown-item" href="/alfabetizacao">Alfabetização</a>
+                      <a class="dropdown-item" href="/portugues">Português</a>
+                      <a class="dropdown-item" href="/matematica">Matemática</a>
+                    </div>
+              </li>
+                  <li class="nav-item active fs-5 fw-bold"><a href="/sobre" class="nav-link">Sobre</a></li>
+                  <li class="nav-item active fs-5 fw-bold"><a href="#" class="nav-link" data-toggle="modal" data-target="#modalContato">Contato</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+  </div>
+  </div> 
+  <!-- modal contato -->
+  <div class="modal fade" id="modalContato" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" >
+    <div class="modal-dialog modal-dialog-centered" role="document" >
+      <div class="modal-content">
+        <div class="modal-header border-bottom-0">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body" style="background-image:url(images/logo.png);">
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@nome.com">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Deixe sua mensagem</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            <button class="btn btn-info btn-round mt-2" data-dismiss="modal">Enviar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- fim modal contato -->
+  <!--FIM NAVBAR-->
+    <main>
+      <div class="row justify-content-center">
+        <div class="contanier col-6 justify-content-center">
+            <img src="images/vogais.jpg" alt="vogais" width="100%">
+             <h1 class="mt-4">Aprenda a alfabetizar  crianças</h1>
+            <p>Você pode usar imagens para associar com as vogais, como lugares, animais e objetos. É uma forma de
+                agregar algo diferente às principais necessidades que surgem durante a aprendizagem, auxiliando na
+                compreensão e reprodução das palavras de maneira correta, além de ajudar na memorização. Uma opção é
+                criar cartazes com várias figuras e a vogal inicial de cada uma. </p>
+              <h1>Use o método fônico</h1> 
+            <p>Com esse método, você ensina primeiro os sons de cada letra sozinha, e em seguida, são construídas as
+                junções dos sons, dando origem às palavras. É importante que as crianças percebam que as palavras se
+                formam por fonemas, além de aprender as regras da escrita. Por isso, apresente as vogais orais (a, ê, é,
+                i, ô, ó, u) e as vogais nasais (am, em, im, om, um) para que a criança perceba e construa a pronúncia de
+                cada som.</p>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-6">
+        <button class="btn btn-outline-dark btn-info mb-2">Download</button>
+        </div>
+      </div>
+    </main>
+     <!-- INICIO FOOTER -->
+     <section class="container">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+            <img class="m-3" width="30" height="24" src="images/logo.png">
+          </a>
+          <span class="mb-3 mb-md-0 text-muted">&copy; 2022 EducAgro</span>
+        </div>
+    
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3"><a href="#"><a href="#"><span class="fa fa-facebook m-3 text-dark"><i class="sr-only">Facebook</i></span></a></li>
+          <li class="ms-3"><a href="#"><span class="fa fa-twitter m-3 text-dark"><i class="sr-only">Twitter</i></span></a></li>
+          <li class="ms-3"><a href="#"><span class="fa fa-instagram m-3 text-dark"><i class="sr-only">Instagram</i></span></a></li>
+        </ul>
+      </footer>
+    </section>
+    <!-- FIM FOOTER -->
+    <!-- Bootstrap JavaScript Libraries -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <!-- jQuery -->
+<script src='https://code.jquery.com/jquery-3.3.1.slim.min.js'></script>
+    <!-- Popper JS -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js'></script>
+    <!-- Bootstrap JS -->
+<script src='https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js'></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <title>EducAgro-Dicas</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    
+    <!-- Bootstrap CSS -->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/css/bootstrap.min.css'>
+    <!-- Font Awesome CSS -->
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.3.1/css/all.css'>
+    <!-- Bootstrap CSS v5.2.0-beta1 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"  integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/educagro.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+        <!--NAVBAR-->
+        <div class="container-nav m-0">
+  <div class="row justify-content-center m-0">
+      <div class="logo col-md-6 text-center">
+      <img src="images/logo.png" width="100px" height="100 px">
+      </div>
+  </div>
+  <div class="row justify-content-center m-0">
+  <div class="col-md-2 d-flex">
+      <div class="social-media">
+      <p class="mt-5 d-flex text-center">
+        <button type="button" class="btn btn-round m-3" style="background-color: #4c6233; color:white" data-toggle="tooltip" data-placement="top" title="Twitter">
+          <i class="fab fa-twitter"></i>
+        </button>
+        <button type="button" class="btn btn-round m-3" style="background-color: #4c6233; color:white" data-toggle="tooltip" data-placement="top" title="Facebook">
+          <i class="fab fa-facebook"></i>
+        </button>
+        <button type="button" class="btn btn-round m-3" style="background-color: #4c6233; color:white" data-toggle="tooltip" data-placement="top" title="Instagram">
+          <i class="fab fa-instagram"></i>
+        </button>
+      </p>
+      </div>
+  </div>
+      <div class="col-md-8 d-flex justify-content-center">
+          <h2 class="educagro">EducAgro</h2>
+      </div>
+      <div class="col-md-2 d-flex">
+          <div class="container text-end p-5">
+              <a href="/login" class="btn btn-info btn-round">
+                Login
+              </a>  
+            </div>
+            
+          <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header border-bottom-0">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="form-title text-center">
+                      <h4>Login</h4>
+                    </div>
+                    <div class="d-flex flex-column text-center">
+                      <form>
+                        <div class="form-group">
+                          <input type="email" class="form-control" id="email1"placeholder="Seu email...">
+                        </div>
+                        <div class="form-group">
+                          <input type="password" class="form-control" id="password1" placeholder="Sua senha...">
+                        </div>
+                        <a type="button" class="btn btn-info btn-block btn-round" href="/dashboard">Login</a>
+                      </form>
+                      
+                      <div class="text-center delimiter">ou continue com o </div>
+                      <div class="d-flex justify-content-center social-buttons">
+                        <button type="button" class="btn btn-secondary btn-round" data-toggle="tooltip" data-placement="top" title="Twitter">
+                          <i class="fab fa-twitter"></i>
+                        </button>
+                        <button type="button" class="btn btn-secondary btn-round" data-toggle="tooltip" data-placement="top" title="Facebook">
+                          <i class="fab fa-facebook"></i>
+                        </button>
+                        <button type="button" class="btn btn-secondary btn-round" data-toggle="tooltip" data-placement="top" title="Linkedin">
+                          <i class="fab fa-linkedin"></i>
+                        </button>
+                      </di>
+                    </div>
+                  </div>
+                </div>
+                  <div class="modal-footer d-flex justify-content-center">
+                    <div class="signup-section">Não é um membro ainda? <a href="#a" class="text-info"> Crie sua conta</a>.</div>
+                  </div>
+              </div>
+            </div>
+          </div>
+      </div>
+  </div>
+  <div class="row m-0">
+      <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light " id="ftco-navbar" style="background-color: #4c6233;">
+          <div class="container-fluid">
+          
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="fa fa-bars"></span> Menu
+            </button>
+            <div class="collapse navbar-collapse" id="ftco-nav">
+              <ul class="navbar-nav m-auto">
+                  <li class="nav-item active fs-5 fw-bold"><a href="/home" class="nav-link">Home</a></li>
+                  <li class="nav-item dropdown">
+                       <a class="nav-link active dropdown-toggle fs-5 fw-bold" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dicas Pedagógicas</a>
+                      <div class="dropdown-menu" aria-labelledby="dropdown04">
+                          <a class="dropdown-item" href="/educagro-dicaspais">Dicas para os pais</a>
+                          <a class="dropdown-item" href="/educagro-dicasprof">Dicas para os professores</a>
+                      </div>
+                  </li>
+                      <li class="nav-item dropdown">
+                    <a class="nav-link active dropdown-toggle fs-5 fw-bold" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Cartilhas</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdown04">
+                      <a class="dropdown-item" href="/alfabetizacao">Alfabetização</a>
+                      <a class="dropdown-item" href="/portugues">Português</a>
+                      <a class="dropdown-item" href="/matematica">Matemática</a>
+                    </div>
+              </li>
+                  <li class="nav-item active fs-5 fw-bold"><a href="/sobre" class="nav-link">Sobre</a></li>
+                  <li class="nav-item active fs-5 fw-bold"><a href="#" class="nav-link" data-toggle="modal" data-target="#modalContato">Contato</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+  </div>
+        </div> 
+        <!-- modal contato -->
+        <div class="modal fade" id="modalContato" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" >
+    <div class="modal-dialog modal-dialog-centered" role="document" >
+      <div class="modal-content">
+        <div class="modal-header border-bottom-0">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body" style="background-image:url(images/logo.png);">
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@nome.com">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Deixe sua mensagem</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            <button class="btn btn-info btn-round mt-2" data-dismiss="modal">Enviar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+        </div>
+        <!-- fim modal contato -->
+        <!--FIM NAVBAR-->
+        <!--Primeira section-->
+        <section>
+          <div class="row justify-content-center m-3">
+            <div class="col-12 col-md-6">
+              <h1 class="mt-5">Alfabetização em casa: 5 dicas para estimular o aprendizado das crianças</h1>
+              <p>O apoio da família no desenvolvimento de uma criança é muito importante, ao mesmo tempo em que a escola também desempenha um papel fundamental. A alfabetização em casa, por exemplo, ajuda muito a reforçar o trabalho realizado em sala de aula.</p>
+              <p>Certamente, os professores são formados e capacitados para lidarem com essa missão de perto, acompanhando e auxiliando os estudantes no aprendizado da linguagem. Porém, nada impede que os pais contribuam para esse processo durante os momentos do convívio familiar.</p>
+              <p>Você também pensa assim? Sabe o que fazer para ajudar as crianças? Confira algumas dicas simples e que fazem toda a diferença!</p>
+
+              <h3>1- Crie momentos de leitura</h3>
+              <p>A leitura é uma atividade bastante importante para a alfabetização, pois as crianças começam a identificar as palavras pela escuta e, depois, descobrem como ler cada uma delas ao fazer a junção das letras. Por isso, antes que elas tenham a autonomia de pegar um livro ou qualquer outro material para ler, é preciso ajudá-las e incentivá-las em relação à prática.</p>
+              <p>Os pais podem assumir o compromisso de ter um momento especial do dia para isso. Uma boa sugestão é ler todos os dias antes de dormir, já que isso também ajuda a relaxar e distrai a mente da criança. Quer um incentivo extra? Além da alfabetização, a leitura ajuda no desenvolvimento cognitivo, da criatividade e da concentração.</p>
+              <p>Um detalhe mais do que importante em tudo isso é a regularidade. É a constância que acelera o desenvolvimento e o hábito da leitura deve ser construído desde a infância. Não há dúvidas de que os pais têm uma grande responsabilidade nessa missão, não é mesmo? Leia para as crianças e deixe que elas leiam sozinhas quando puderem.</p>
+              <h3>2- Brinque com o alfabeto</h3>
+              <p>Será que você explora as oportunidades de brincar com o alfabeto no dia a dia? Elas podem passar despercebidas com a rotina corrida, mas é importante promover essa aproximação até nas situações mais simples que acontecem em casa.</p>
+              <p>Por exemplo, as refeições normalmente são ocasiões em que pais e filhos convivem. Então, essa é uma boa hora para estimular o jogo de palavras com cada letra, seja relacionado com os alimentos que estão sendo consumidos, seja pensando em uma lista de compras.</p>
+              <p>Na realidade, tudo vai depender da faixa etária da criança, já que as atividades vão evoluindo conforme ela avança na alfabetização. Além desses acontecimentos cotidianos, outra ideia é conciliar as brincadeiras com o aprendizado.</p>
+              <p>Crianças gostam de se divertir e a oportunidade de brincar é algo que chama a atenção delas. O famoso jogo do “stop” (ou “adedanha”) é um exemplo que estimula e diverte ao mesmo tempo, pois cada um precisa buscar na memória as palavras e fazer associações. Quando os pais participam desses momentos, os filhos ficam ainda mais animados!</p>
+              <h3>3- Conte histórias</h3>
+              <p>Ler uma história pronta e escrita por outro autor é excelente, como já falamos acima acerca da importância da leitura. Mas que tal explorar a criatividade e criar as suas próprias histórias? Fazer isso também ajuda a criança em diversos aspectos: a organizar os seus pensamentos, a construir uma sequência de ações interligadas e a usar as palavras certas para expressar as suas ideias.</p>
+              <p>Esse aprendizado depende de ter referências no dia a dia, entendendo como é uma boa história. Logo, insira esse “compromisso” na rotina de uma forma muito natural, falando de episódios pessoais antigos, contando sobre algo que aconteceu no dia ou usando a imaginação para criar uma nova história. Dependendo da idade da criança, incentive que ela faça a mesma coisa — desde imaginar um conto sem muito sentido até relatar como foi o dia de aula ou qualquer outra experiência vivida.</p>
+              <h3>4- Ajude nas tarefas</h3>
+              <p>O desânimo com os estudos, muitas vezes, acontece porque o pequeno encontra dificuldades no caminho. Se jovens e adultos passam por isso, imagine como é para uma criança ter que lidar com obstáculos que ela nem sabe como resolver.</p>
+              <p>Essa é uma das razões pelas quais o acompanhamento pedagógico e educacional é tão importante. Os professores ensinam, tiram as dúvidas e demonstram os caminhos da aprendizagem. O cotidiano escolar é essencial para a assimilação dos conteúdos em cada etapa. Por sua vez, as tarefas de casa são recursos complementares que reforçam o que foi aprendido. Nesse caso, a função dos pais não é só supervisionar se elas são realizadas, mas, sim, oferecer ajuda sempre que necessário.</p>
+              <p>Durante o processo de alfabetização, é muito comum fazer pequenas confusões com letras ou palavras. Inclusive, a comunicação entre a família e a escola sobre as dificuldades do aluno contribui bastante para o progresso de cada um. Porém, isso só é viável quando os pais dedicam atenção e acompanham as atividades.</p>
+              <h3>5- Incentive a escrita</h3>
+              <p>A contação de histórias favorece a audição, as conversas diárias estimulam a fala e os livros cumprem a parte da leitura, certo? Para a escrita não ficar para trás, a alfabetização em casa também deve envolver atividades que estimulem a criança a escrever.</p>
+              <p>A primeira fase costuma ser treinar cada letra isoladamente até que o alfabeto todo seja reproduzido sem grandes dificuldades. Essa identificação visual das letras vem muito da leitura, junto ao esforço para transcrevê-las.</p>
+              <p>Depois, a criança começa a aprender as sílabas e a formar palavras inteiras. Esse é o momento de criar situações para que elas escrevam cada vez mais. Por exemplo, peça para que ela anote um lembrete importante, para que faça um cartão para um presente ou para que mande um bilhete.</p>
+              <p>É natural que os pais, irmãos mais velhos ou qualquer outra pessoa se encarregue de escrever tudo no dia a dia pela maior facilidade. Só que dar essas pequenas tarefas para a criança não deixa de ser um incentivo para o desenvolvimento dela, já que a prática é essencial.</p>
+              <p>Viu só como não é difícil ajudar na alfabetização em casa? Basta ficar atento aos detalhes e tentar aproveitar todas as chances na rotina para promover o aprendizado das crianças. Demonstrar interesse, atenção e dedicação é uma das atitudes que fazem toda a diferença para o desenvolvimento da criança!</p>
+            </div>
+  
+          </div>
+        </section>
+        <!--Fim da Section-->
+        <!-- INICIO FOOTER -->
+        <section class="container">
+          <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <div class="col-md-4 d-flex align-items-center">
+                <img class="m-3" width="30" height="24" src="images/logo.png">
+              </a>
+              <span class="mb-3 mb-md-0 text-muted">&copy; 2022 EducAgro</span>
+            </div>
+        
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+              <li class="ms-3"><a href="#"><a href="#"><span class="fa fa-facebook m-3 text-dark"><i class="sr-only">Facebook</i></span></a></li>
+              <li class="ms-3"><a href="#"><span class="fa fa-twitter m-3 text-dark"><i class="sr-only">Twitter</i></span></a></li>
+              <li class="ms-3"><a href="#"><span class="fa fa-instagram m-3 text-dark"><i class="sr-only">Instagram</i></span></a></li>
+            </ul>
+          </footer>
+        </section>
+        <!-- FIM FOOTER -->
+    <!-- Bootstrap JavaScript Libraries -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <!-- jQuery -->
+<script src='https://code.jquery.com/jquery-3.3.1.slim.min.js'></script>
+    <!-- Popper JS -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js'></script>
+    <!-- Bootstrap JS -->
+<script src='https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js'></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+
+
+
+
+

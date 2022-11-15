@@ -1,0 +1,342 @@
+.logo{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.container-nav{
+    background-image: linear-gradient(#c2b2a3, white);
+}
+.social-media{
+   padding-left: 30px;
+   
+}
+
+@font-face {
+  font-family: 'primary';
+  src: url(../Fonts/PENMP___.TTF) format('truetype');
+}
+
+.educagro{
+  font-size:50px;
+    color:#4c6233;
+    font-weight:normal;
+    font-style: bold;
+    font-family: 'primary', 'Times New Roman', Times, serif;
+}
+
+.dropdown-menu{
+  background-color: #4c6233;
+  color: white;
+  font-style: bold;
+}
+.dropdown-item{
+  font-style: bold;
+  color:white
+}
+
+
+    /* MODAL LOGIN */ 
+/* .container {
+    padding: 2rem 0rem;
+  } */
+  
+  @media (min-width: 576px) {
+    .modal-dialog {
+      max-width: 400px;
+    }
+    .modal-dialog .modal-content {
+      padding: 1rem;
+    }
+  }
+  .modal-header .close {
+    margin-top: -1.5rem;
+  }
+  
+  .form-title {
+    margin: -2rem 0rem 2rem;
+  }
+  
+  .btn-round {
+    border-radius: 3rem;
+  }
+  
+  .delimiter {
+    padding: 1rem;
+  }
+  
+  .social-buttons .btn {
+    margin: 0 0.5rem 1rem;
+  }
+  
+  .signup-section {
+    padding: 0.3rem 0rem;
+  }
+  .modal-body{
+    background-color: #4c6233;
+    
+  }
+.modal-content{
+  background-color: #4c6233;
+  color: white;
+}
+
+
+  /*FIM MODAL*/
+
+  /* DASHBOARD */
+
+
+.feather {
+  width: 16px;
+  height: 16px;
+}
+
+/*
+ * Sidebar
+ */
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 100; 
+  padding: 48px 0 0; 
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+}
+
+@media (max-width: 767.98px) {
+  .sidebar {
+    top: 5rem;
+  }
+}
+
+.sidebar-sticky {
+  position: relative;
+  top: 0;
+  height: calc(100vh - 48px);
+  padding-top: .5rem;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.sidebar .nav-link {
+  font-weight: 500;
+  color: #333;
+}
+
+.sidebar .nav-link .feather {
+  margin-right: 4px;
+  color: #727272;
+}
+
+.sidebar .nav-link.active {
+  color: #2470dc;
+}
+
+.sidebar .nav-link:hover .feather,
+.sidebar .nav-link.active .feather {
+  color: inherit;
+}
+
+.sidebar-heading {
+  font-size: .75rem;
+}
+
+/*
+ * Navbar Dashboard
+ */
+
+.navbar-brand {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  background-color: #4c6233;
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, .25);
+}
+
+.navbar .navbar-toggler-d {
+  top: .25rem;
+  right: 1rem;
+  background-color: transparent;
+}
+
+.navbar .form-control {
+  padding: .75rem 1rem;
+}
+
+.form-control-dark {
+  color: #fff;
+  background-color: white;
+  border-color: rgba(255, 255, 255, .1);
+}
+
+.form-control-dark:focus {
+  border-color: transparent;
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, .25);
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+.b-example-divider {
+  height: 3rem;
+  background-color: #4c6233;
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 0;
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.b-example-vr {
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 100vh;
+}
+
+.bi {
+  vertical-align: -.125em;
+  fill: currentColor;
+}
+
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* CARDS  */
+
+.card {
+  border: none;
+  transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1);
+  overflow: hidden;
+  border-radius: 20px;
+  min-height: 450px;
+  box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.2);
+}
+@media (max-width: 768px) {
+  .card {
+    min-height: 350px;
+  }
+}
+@media (max-width: 420px) {
+  .card {
+    min-height: 300px;
+  }
+}
+.card.card-has-bg {
+  transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1);
+  background-size: 120%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.card.card-has-bg:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: inherit;
+  -webkit-filter: grayscale(1);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+.card.card-has-bg:hover {
+  transform: scale(0.98);
+  box-shadow: 0 0 5px -2px rgba(0, 0, 0, 0.3);
+  background-size: 130%;
+  transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1);
+
+}
+.card.card-has-bg:hover .card-img-overlay {
+  transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1);
+  background: #234f6d;
+  background: linear-gradient(0deg, rgba(4, 69, 114, 0.5) 0%, #044572 100%);
+}
+.card .card-footer {
+  background: none;
+  border-top: none;
+}
+.card .card-footer .media img {
+  border: solid 3px rgba(255, 255, 255, 0.3);
+}
+
+.card .card-body {
+  transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+.card:hover {
+  cursor: pointer;
+  transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+.card:hover .card-body {
+  margin-top: 30px;
+  transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+.card .card-img-overlay {
+  transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1);
+  background: #234f6d;
+  background: linear-gradient(0deg, rgba(35, 79, 109, 0.3785889356) 0%, #455f71 100%);
+}
+
+/* FIM DASHBOARD */
+
+/*CSS HOME RENAN*/
+
+.carousel-item>.item> img { 
+  align-items: center;
+}  
+
+
+/* CSS SOBRE TAI */
+
+.main {
+  width: 100%;
+  margin: 10px;
+  background-color: #f1f5f8;
+}
+.notice{
+  font-size: 20px;
+  text-align: justify;
+  margin: 5px;
+}
+.centro {
+  text-align: center;
+}
+
+
+
+.cartao-home:hover{
+ background-image: linear-gradient(white,#4c623363);
+transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+transform: scale(1.05);
+border-radius: 10px;
+box-shadow: 0 5px 10px #333;
+cursor: pointer;
+}
