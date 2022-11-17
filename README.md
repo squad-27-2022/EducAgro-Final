@@ -3,7 +3,9 @@ Entrega final do projeto EDUCAGRO Recode 2022
 Desenvolvido em Java utilizando Springboot
 
 Escopo do Projeto
+
 Squad nº 27
+
 Nome do líder - Renan Henrique
 
 Nome do Vice-líder - Alan de Oliveira
