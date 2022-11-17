@@ -38,8 +38,8 @@ De diversas formas sem a alfabetização básica, dificulta atividades simples d
 
  6. Qual o cronograma das atividades?
  
-Levamos 7 meses para finalizar o projeto.
-
+Levamos 6 meses para finalizar o projeto.
+Fizemos uma distribuição das tarefas para que todos tivessem a oportunidade de aprender trabalhando e se desafiando a cada entrega.
 
 8. Qual a ferramenta de gerenciamento de projeto será usada para o monitoramento das atividades? 
 
