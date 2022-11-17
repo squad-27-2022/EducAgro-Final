@@ -5,7 +5,9 @@ Desenvolvido em Java utilizando Springboot
 Escopo do Projeto
 Squad nº 27
 Nome do líder - Renan Henrique
+
 Nome do Vice-líder - Alan de Oliveira
+
 Demais integrantes:
 1.	Taiane Ferreira
 2.	Gilson de Lima
