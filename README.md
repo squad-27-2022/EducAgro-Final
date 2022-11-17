@@ -8,7 +8,7 @@ Squad nº 27
 
 Nome do líder - Renan Henrique
 
-Nome do Vice-líder - Alan de Oliveira
+Nome do Vice-líder - Alan Moraes
 
 Demais integrantes:
 1.	Taiane Ferreira
